@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class Main {
 
-    // Method: puts random numbers in an arraylist
     public static ArrayList<Integer> randomArrayList() {
         ArrayList<Integer> randomArrayList = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
@@ -41,7 +40,6 @@ public class Main {
         return sum / arrayList.size();
     }
 
-    // eratosthenes sieve
     public static ArrayList<Integer> getPrimes(int n) {
         var isPrime = new boolean[n + 1];
         for (int i = 2; i <= n; i++) {
